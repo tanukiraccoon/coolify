@@ -13,4 +13,4 @@ def health():
     return {"status": "ok"}
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=os.getenv("SERVER_PORT"))
+    app.run(host="0.0.0.0", port=20000)
